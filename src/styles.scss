@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  height: 100vh;
+
+}
+
+.containers{
+  width: 100vw;
+
+  background: linear-gradient(#1D3767,#01C5F1);
+
+  height: 100vh;
+}
+
+.start{
+  color: #FFF;
+  margin-bottom: 2rem;
+  font-size: 14px;
+}
+
+.lg-buton{
+ width: 100%;
+ background: linear-gradient(180deg, rgba(19, 236, 201, 1) 0%, rgba(0, 195, 243, 1) 100%);
+}
+
+.login-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  height: auto;
+
+
+}
+
+.input_class{
+  width: 100%;
+
+}
+
+.input-group{
+  margin-bottom: 15px;
+}
