@@ -34,13 +34,123 @@
     </header>
     <section class="content-headers"></section>
     <div class="conteneurs">
+      <div class="box">
       <div class="search-content">
-        <div class="add-buton"></div>
-        <div class="search-buton">
-          <input class="form-control" type="text">
+        <div class="add-buton">
+          <div class="btn-group btn-group-md" role="group">
+            <a class="export-anchor btn btn-ibi" title="export">
+              <div>
+                 <div>
+                   <span class="export fa fa-download"></span>
+                 </div>
+              </div>
+            </a>
+            <a class="export-anchor btn btn-ibi" title="export CSV">
+              <div class="fbutton">
+                <div>
+                  <span class="export fa fa-download"></span>
+                </div>
+             </div>
+            </a>
+            <a class="pReload btn btn-ibi ajax_refresh_and_loading">
+              <span class="fa fa-refresh" title="Reflesh"></span>
+            </a>
+            <a class="print-anchor btn btn-ibi">
+              <span class="print fa fa-print"></span>
+            </a>
+            <a class="btn btn-ibi">
+              <span class="fa fa-plus"></span>
+            </a>
+          </div>
+
         </div>
-        <div class="filter-buton"></div>
+        <div class="search-buton">
+          <div class="input-group">
+            <input class="form-control qsbsearch_fieldox search_text btn-sm" type="text" placeholder="Recherche">
+          </div>
+          <div class="input-group-btn">
+            <button class="btn btn-primary btn-sm" type="submit"><i class="fa fa-search"></i></button>
+          </div>
+
+        </div>
+        <div class="filter-buton">
+          <div class="input-group input-group-sm">
+            <select class="form-control search_field" name="search_field">
+              <option value="">Tous critères</option>
+              <option value="NOM">Nom</option>
+              <option value="EMAIL">Email</option>
+              <option value="TEL">Téléphone </option>
+            </select>
+            <span class="input-group-btn">
+              <button class="btn btn-primary btn-sm search_clear" type="button">Initialiser le filtrage</button>
+            </span>
+
+          </div>
+        </div>
+
       </div>
+      <div class="border-top:solid 1px #EEE;">
+        <div class="box-body no-padding table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th class="text-left field-sorting ">Nom </th>
+              <th class="text-left field-sorting ">Email </th>
+              <th class="text-left field-sorting ">Téléphone </th>
+              <th class="text-left field-sorting ">Achats effectués </th>
+              <th class="text-left field-sorting ">Dépense effectué </th>
+              <th class="text-left field-sorting ">Dépense effectué </th>
+              <th class="text-left field-sorting ">Par </th>
+              <th class="text-left field-sorting ">Crée </th>
+              <th class="text-left field-sorting ">
+                Modifié le </th>
+              <th class="text-left field-sorting ">Actions </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+            <td class="text-left">BURARAME Patrick</td>
+            <td class="text-left">Non Défini</td>
+            <td class="text-left">79961451</td>
+            <td class="text-left">193</td>
+            <td class="text-left">0.00</td>
+            <td class="text-left"></td>
+            <td class="text-left">admin</td>
+            <td class="text-left">2018-10-09 18:54:30</td>
+            <td class="text-left">2018-10-09 19:34:21</td>
+            <td width="100" class="text-left">
+              <a class="delete-row flex">
+                <span class="fa fa-remove btn btn-danger btn-sm"></span>
+              </a>
+              <a class="">
+                <span class="fa fa-edit btn btn-primary btn-sm"></span>
+              </a>
+            </td>
+           </tr>
+           <tr>
+            <td class="text-left">MIDENDE GILBERT</td>
+            <td class="text-left">Non Défini</td>
+            <td class="text-left">79961451</td>
+            <td class="text-left">193</td>
+            <td class="text-left">0.00</td>
+            <td class="text-left"></td>
+            <td class="text-left">admin</td>
+            <td class="text-left">2018-10-09 18:54:30</td>
+            <td class="text-left">2018-10-09 19:34:21</td>
+            <td width="100" class="text-left">
+              <a class="delete-row flex">
+                <span class="fa fa-remove btn btn-danger btn-sm"></span>
+              </a>
+              <a class="">
+                <span class="fa fa-edit btn btn-primary btn-sm"></span>
+              </a>
+            </td>
+           </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+    </div>
     </div>
   </div>
 

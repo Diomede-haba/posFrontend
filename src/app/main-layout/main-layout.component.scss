@@ -68,28 +68,77 @@ a:hover{
 .content-headers{
   height: 7vh;
   width: 82vw;
-
+  margin-bottom: 5px;
   background-color: #7e7a7a;
 }
 .conteneurs{
   height: 84vh;
   width: 82vw;
+  position: relative;
   background-color: #f8f4f4;
+  font-size: 13px;
+  box-sizing: border-box;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
 
+
+}
+
+.box {
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  border-top: 1px solid #d2d6de;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 .search-content{
   display: flex;
   flex-direction: row;
+  widows: 82vw;
   position: relative;
-  padding: 10px;
-  display: block;
+  padding: 10px ;
   color: #444;
-  box-sizing: border-box;
-  line-height: 1.42857143;
+  font-size: 12px;
+  border: 4px;
 
 }
 .add-buton{
   box-sizing: border-box;
+  width: 20vw;
 
+}
+
+.search-buton{
+  box-sizing: border-box;
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.filter-buton{
+  box-sizing: border-box;
+  width: 30vw;
+  position: absolute;
+  right: 5px;
+
+}
+
+.search_field{
+  width: 15vw;
+}
+
+.btn-ibi{
+  border-radius: 3px;
+  box-shadow: none;
+  border: 1px solid transparent;
+  color: #fff;
+  background: linear-gradient(#1D3767,#01C5F1);
+  padding: 3px 12px;
 }
